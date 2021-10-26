@@ -1,0 +1,46 @@
+.image {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 26px;
+    background-color: #E7E7E7;
+    box-shadow: 0px 0px 20px 20px #E7E7E7;
+}
+
+.image img {
+    display: block;
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    object-position: center;
+    /* prevent original image from dragging */
+    pointer-events: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.text {
+    width: auto;
+    height: 55px;
+    position: absolute;
+    left: 26px;
+}
+
+.text p {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.text h2 {
+    color: #303030;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+}

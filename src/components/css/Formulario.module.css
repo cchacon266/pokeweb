@@ -1,0 +1,96 @@
+.form {
+    width: 100%;
+    height: auto;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000000;
+}
+
+.row {
+    width: 350px;
+    height: 80px;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form_group {
+    width: 350px;
+    height: 50px;
+    background-color: #F16A6A;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.form_control {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.form_control::placeholder {
+    color: #FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.form_control:focus {
+    outline: none!important;
+}
+
+.form_submit {
+    width: 65px;
+    height: 65px;
+    background-color: #E7E7E7;
+    border-radius: 50px;
+    position: absolute;
+    right: -1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.btn img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    /* prevent original image from dragging */
+    pointer-events: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+@media(max-width:340px) {
+    .row {
+        width: 100%;
+    }
+}
