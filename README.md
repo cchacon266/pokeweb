@@ -1,2 +1,2 @@
 # pokeweb
-aplicacion consumiendo aplicacion de pokemon 
+aplicacion consumiendo API de pokemon 
