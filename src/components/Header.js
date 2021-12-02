@@ -9,8 +9,8 @@ const Header = () => {
             </div>
             <ContainerLinks>
                 <Links href="#">INICIO</Links>
-                <Links href="#">SPORTS</Links>
-                <Links href="#">REGRAMENTO</Links>
+                <Links href="#">MEMORAMA</Links>
+                <Links href="#">POKEDEX</Links>
             </ContainerLinks>
         </Container>
     );
@@ -18,7 +18,7 @@ const Header = () => {
 
 const Container = styled.div`
     box-sizing: border-box;
-    background-color: black;
+    background-color: #292C2F;
     height: 50px;
     display: flex;
     justify-content: space-between;
