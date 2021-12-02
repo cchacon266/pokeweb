@@ -8,9 +8,9 @@ const Header = () => {
                 Pokeweb
             </div>
             <ContainerLinks>
-                <Links href="#">INICIO</Links>
-                <Links href="#">MEMORAMA</Links>
-                <Links href="#">POKEDEX</Links>
+                <Links href="https://pokeeweb1.netlify.app/">INICIO</Links>
+                <Links href="https://pokeeweb1.netlify.app/memorama.html">MEMORAMA</Links>
+                <Links href="https://pokeweb1.netlify.app/">POKEDEX</Links>
             </ContainerLinks>
         </Container>
     );
@@ -18,7 +18,7 @@ const Header = () => {
 
 const Container = styled.div`
     box-sizing: border-box;
-    background-color: #292C2F;
+    background-color: #19202B;
     height: 50px;
     display: flex;
     justify-content: space-between;
