@@ -54,7 +54,11 @@ const Navbar = () => {
                             </div>
                         </Fragment>
                     :
-                        <img src={dataOffImg} alt="DataOff"/>
+                    <div>
+                    <img src={dataOffImg} alt="DataOff"/>
+                    <br/>
+                    <p>Datos</p>
+                    </div>
                     }
                 </div>
                 <div className="btn-stats" onClick={statsClick}>
@@ -67,7 +71,11 @@ const Navbar = () => {
                             </div>
                         </Fragment>
                     :
-                        <img src={statsOffImg} alt="StatsOff"/>
+                    <div>
+                    <img src={statsOffImg} alt="StatsOff"/>
+                     <br/>
+                     <p>Estadisticas</p>
+                     </div>
                     }
                 </div>
                 <div className="btn-moves" onClick={movesClick}>
@@ -80,7 +88,12 @@ const Navbar = () => {
                             </div>
                         </Fragment>
                     :
-                        <img src={movesOffImg} alt="MovesOff"/>
+                    <div>
+                    <img src={movesOffImg} alt="MovesOff"/>
+                     <br/>
+                     <p >Movimientos</p>
+                     </div>
+                        
                     }
                 </div>
             </div>
